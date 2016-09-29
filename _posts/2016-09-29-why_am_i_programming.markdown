@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why Am I Programming?"
-date:   2016-09-29 10:59:49 +0000
+date:   2016-09-29 06:59:49 -0400
 ---
 
 I grew up in France. I first started using computers at my dad's office, when I was 7 or 10. I'd spend some Wednesday afternoons there, using his extra machine. I used to play Wolf 3D (also known as Wolfenstein 3D). Loved that game, then I also used to love to change the programs' icons on my father's desktop. That was fun. Before the Internet. 
@@ -20,7 +20,7 @@ On this site, I would write up and upload my notes from my school classes (so my
 
 I never knew you could make a career out of programming, and that I could even go study for it. So instead I went to business school. But on the side, for fun, I would spend hours tinkering with my websites. Somehow in all those years I never learned the real art of programming. 
 
-Which is why I am here today. I love to build new solutions, but I often feel limited by my programming knowledge. I want to understand everyline of code I put down on a page. I want to be able to write more complex programs. I'm tired of being a hacker, and a tinkerer. I want to be an engineer. 
+Which is why I am here today. I love to build new solutions, but I often feel limited by my programming knowledge. I want to understand every line of code I put down on a page. I want to be able to write more complex programs. I'm tired of being a hacker, and a tinkerer. I want to be an engineer. 
 
 
 
