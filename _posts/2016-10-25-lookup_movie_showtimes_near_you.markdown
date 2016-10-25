@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lookup movie showtimes near you"
-date:   2016-10-25 03:32:57 +0000
+date:   2016-10-24 23:32:57 -0400
 ---
 
 
@@ -16,11 +16,14 @@ Googling `showtimes` used to return movie showtimes near you. But not anymore, I
 The first thing I did was generating a new gem's bone structure using `bundle gem my_gem`. It automatically created the main files I was going to need. 
 
 Then I started writing the code. As I was wrapping my head around the functionality, I kept the code within one file: `app.rb`. I first made the basics of the app work with functional programming. Once that worked, I refactored it and made it object oriented.
+
 In addition to `app.rb`, I created:
+
 * `scraper.rb`: scrapes the google url, and creates theater instances
 * `theater.rb`: creates new theaters, with their movies / showtimes
 
 When a new theater is added, its movies and showtimes are added too. It looks something like this:
+
 ```
 theater => name,
 movies => [
