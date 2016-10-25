@@ -57,6 +57,7 @@ It bothered me that when I was displaying the header for the list of theaters, t
 One thing to note is it took me almost as much time to program this app, as it took me to figure out how to package the gem so that people around me could download it. :)
 
 The github repo: [github.com/marineb/showtimes-cli-app](https://github.com/marineb/showtimes-cli-app/)
+
 The ruby gem: [rubygems.org/gems/showtimes](https://rubygems.org/gems/showtimes)
 
 
