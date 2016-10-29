@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Class Methods V.S. Instance Methods"
-date:   2016-10-29 21:36:03 +0000
+date:   2016-10-29 17:36:03 -0400
 ---
 
 
@@ -12,6 +12,7 @@ I'm going to try to explain the difference between **Class Methods** and **Insta
 First let me demonstrate how they can be visually differentiated: 
 
 Class Method:
+
 ```
 class App
   def self.welcome
@@ -21,6 +22,7 @@ end
 ```
 
 Instance Method:
+
 ```
 class App
   def welcome
