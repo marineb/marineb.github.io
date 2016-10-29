@@ -14,8 +14,8 @@ Class Method:
 ```
 class App
   def self.welcome
-	  puts "hello world!"
-	end
+    puts "hello world!"
+  end
 end
 ```
 
@@ -24,8 +24,8 @@ Instance Method:
 ```
 class App
   def welcome
-	  puts "hello world!"
-	end
+    puts "hello world!"
+  end
 end
 ```
 
@@ -39,8 +39,8 @@ Let's jump into some examples to understand this. Copy and paste this below into
 ```
 class App
   def welcome
-	  puts "hello world!"
-	end
+    puts "hello world!"
+  end
 end
 ```
 
@@ -55,8 +55,8 @@ We can either change our program so our method becomes a **class method**, like 
 ```
 class App
   def self.welcome
-	  puts "hello world!"
-	end
+    puts "hello world!"
+  end
 end
 ```
 
@@ -69,8 +69,8 @@ In summary we have these 2 options below:
 ```
 class App
   def self.welcome
-	  puts "hello world! i'm a class method!"
-	end
+    puts "hello world! i'm a class method!"
+  end
 end
 
 App.welcome
@@ -79,8 +79,8 @@ App.welcome
 ```
 class App
   def self.welcome
-	  puts "hello world! i'm an instance method!"
-	end
+    puts "hello world! i'm an instance method!"
+  end
 end
 
 App.new.welcome
