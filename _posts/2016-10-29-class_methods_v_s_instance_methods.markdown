@@ -29,7 +29,9 @@ class App
 end
 ```
 
-Ok. That's easy, the class method is precedeed by the word `self`. So what makes them different? 
+Ok. That's easy, the class method is preceded by the word `self`.
+
+So what makes them different? 
 
 * **Class methods** are called on a class
 * **Instance methods** are called on an instance of a class. It means there must at least be one instance of a class created for them to be able to function. 
