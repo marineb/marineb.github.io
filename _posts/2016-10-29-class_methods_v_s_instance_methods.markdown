@@ -31,8 +31,8 @@ end
 
 Ok. That's easy, the class method is precedeed by the word `self`. So what makes them different? 
 
-* Class methods are called on a class
-* Instance methods are called on an instance of a class. It means there must at least be one instance of a class created for them to be able to function. 
+* **Class methods** are called on a class
+* **Instance methods** are called on an instance of a class. It means there must at least be one instance of a class created for them to be able to function. 
 
 Let's jump into some examples to understand this. Copy and paste this below into your irb: 
 
@@ -50,7 +50,7 @@ Try it.
 
 It gave us an error. Because we're calling an instance method on App, when we haven't created an instance of App yet. How can we fix this? 
 
-We can either change our program so our method becomes a class method, like this:
+We can either change our program so our method becomes a **class method**, like this:
 
 ```
 class App
@@ -90,8 +90,8 @@ App.new.welcome
 ## When should we use a class method vs a instance method?
 Let's say our class is a little bit less anstract: it's `Movie`.
 
-* We should use class methods for anything that doesn't operate on an instance of `Movie`
-* We should use instance methods for when we're operating on specific `Movie` instances (for instance, adding a movie names to each movie instance)
+* We should use **class methods** for anything that doesn't operate on an instance of `Movie`
+* We should use **instance methods** for when we're operating on specific `Movie` instances (for instance, adding a movie names to each movie instance)
 
 I hope that cleared it up for you. If you have questions or corrections, feel free to reach out to me at [@marineboudeau](http://twitter.com/marineboudeau). 
 
