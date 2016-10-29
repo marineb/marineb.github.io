@@ -90,7 +90,7 @@ App.new.welcome
 ## When should we use a class method vs a instance method?
 Let's say our class is a little bit less anstract: it's `Movie`.
 
-* We should use class methods for anything that doesn't operate on instance of `Movie`
+* We should use class methods for anything that doesn't operate on an instance of `Movie`
 * We should use instance methods for when we're tooling with specific `Movie` instances
 
 I hope that cleared it up for you. If you have suggestions / questions / corrections, feel free to reach out to me at [@marineboudeau](http://twitter.com/marineboudeau). 
