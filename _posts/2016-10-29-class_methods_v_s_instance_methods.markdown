@@ -36,7 +36,7 @@ So what makes them different?
 * **Class methods** are called on a class
 * **Instance methods** are called on an instance of a class. It means there must at least be one instance of a class created for them to be able to function. 
 
-Let's jump into some examples to understand this. Copy and paste this below into your irb: 
+Let's jump into some examples to understand this. Copy and paste this **class method** below into your irb: 
 
 ```
 class App
