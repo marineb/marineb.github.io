@@ -78,7 +78,7 @@ App.welcome
 
 ```
 class App
-  def self.welcome
+  def welcome
     puts "hello world! i'm an instance method!"
   end
 end
