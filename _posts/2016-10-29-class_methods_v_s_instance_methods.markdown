@@ -91,9 +91,9 @@ App.new.welcome
 Let's say our class is a little bit less anstract: it's `Movie`.
 
 * We should use class methods for anything that doesn't operate on an instance of `Movie`
-* We should use instance methods for when we're tooling with specific `Movie` instances
+* We should use instance methods for when we're operating on specific `Movie` instances (for instance, adding a movie names to each movie instance)
 
-I hope that cleared it up for you. If you have suggestions / questions / corrections, feel free to reach out to me at [@marineboudeau](http://twitter.com/marineboudeau). 
+I hope that cleared it up for you. If you have questions or corrections, feel free to reach out to me at [@marineboudeau](http://twitter.com/marineboudeau). 
 
 
 
