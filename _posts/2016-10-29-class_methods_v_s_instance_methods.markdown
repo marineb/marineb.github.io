@@ -5,8 +5,6 @@ date:   2016-10-29 17:36:03 -0400
 ---
 
 
-## How do they work, what differentiates them technically?
-
 I'm going to try to explain the difference between **Class Methods** and **Instance Methods** in ruby. 
 
 First let me demonstrate how they can be visually differentiated: 
