@@ -1,9 +1,3 @@
-/*!
- * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2015 Start Bootstrap
- * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -21,20 +15,17 @@ h2,
 h3,
 h4,
 h5,
-h6,
-h6.powered_by {
+h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  line-height: 1;
-  font-size: 13px;
-  margin-top: 0px;
+  font-weight: 800;
 }
 a {
-  color: #404040;
+  color: #2d7eff;
+  text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #006eff;
 }
 a img:hover,
 a img:focus {
@@ -119,14 +110,14 @@ hr.small {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085a1;
+    color: #006eff;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085a1;
+    color: #006eff;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -139,7 +130,7 @@ hr.small {
 }
 .intro-header {
   background: no-repeat center center;
-  background-color: #808080;
+  background-color: #006eff;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -217,11 +208,12 @@ hr.small {
 }
 .post-preview > a {
   color: #404040;
+  text-decoration: none;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #006eff;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -241,11 +233,11 @@ hr.small {
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #404040;
+  color: #2d7eff;
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #006eff;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -325,7 +317,7 @@ footer .copyright {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #0085a1;
+  color: #006eff;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -345,8 +337,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #006eff;
+  border: 1px solid #006eff;
   color: white;
 }
 .pager {
@@ -373,8 +365,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #006eff;
+  border: 1px solid #006eff;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -387,12 +379,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #006eff;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #006eff;
 }
 img::selection {
   color: white;
@@ -402,39 +394,9 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
+code {
+  color: #ff0043;
+}
 body {
-  webkit-tap-highlight-color: #0085a1;
-}
-
-.svg-center {
-    display: inline;
-    position: relative;
-    top: 3px;
-}
-
-@font-face {
-    font-family: 'glyphterregular';
-    src: url('../fonts/glyphter-webfont.eot');
-    src: url('../fonts/glyphter-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/glyphter-webfont.woff2') format('woff2'),
-         url('../fonts/glyphter-webfont.woff') format('woff'),
-         url('../fonts/glyphter-webfont.ttf') format('truetype'),
-         url('../fonts/glyphter-webfont.svg#glyphterregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-.learn-icon {
-  position: relative;
-  top: 5px;
-  display: inline-block;
-  font-family: 'glyphterregular';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  color:#fff;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  webkit-tap-highlight-color: #006eff;
 }
