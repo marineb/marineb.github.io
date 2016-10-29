@@ -89,7 +89,7 @@ App.new.welcome
 ```
 
 
-## When should we use a class method vs a instance method?
+## When should we use a class method vs an instance method?
 Let's say our class is a little bit less anstract: it's `Movie`.
 
 * We should use **class methods** for anything that doesn't operate on an instance of `Movie`
