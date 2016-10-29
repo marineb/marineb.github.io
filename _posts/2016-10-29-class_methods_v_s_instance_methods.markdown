@@ -50,7 +50,7 @@ Try it.
 
 It gave us an error. Because we're calling an instance method on App, when we haven't created an instance of App yet. How can we fix this? 
 
-We can either change our program so our methods becomes a class method, like this:
+We can either change our program so our method becomes a class method, like this:
 
 ```
 class App
