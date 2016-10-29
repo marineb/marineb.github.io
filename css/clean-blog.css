@@ -400,6 +400,11 @@ code {
 body {
   webkit-tap-highlight-color: #006eff;
 }
+.svg-center {
+  display: inline;
+  position: relative;
+  top: 3px;
+}
 @font-face {
   font-family: 'glyphterregular';
   src: url('../fonts/glyphter-webfont.eot');
