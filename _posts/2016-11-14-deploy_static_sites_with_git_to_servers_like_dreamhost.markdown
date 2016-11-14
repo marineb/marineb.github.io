@@ -4,11 +4,12 @@ title:  "Deploy Static Sites With Git to Servers Like Dreamhost"
 date:   2016-11-13 22:33:20 -0500
 ---
 
-TODO: Ideally, I'd like to make this work via Github's webhooks so that it only relies on the that's on Github (any update to a specific branch would triger a deploy). I want to figure that part out at some point. 
-
-I had already looked into this a while back but couldn't figure it out back then. Until today, I've been using [Deploybot](https://deploybot.com/) which deploys sites for you: pretty great product. But they recently got rid of their free service and I didn't want to pay for something that *seems* so simple.
+I had already looked into this a while back but couldn't figure it out back then. Until today, I've been using [Deploybot](https://deploybot.com/) which deploys sites for you: pretty great product. But they recently got rid of their free service and I didn't want to pay for a service that *seems* so simple.
 
 I'll be referencing the sources that helped me at the bottom of this post. Since it took me years to find out how to do this, I do think the internet needs more resources to solve that problem. 
+
+TODO: Ideally, I'd like to make this work via Github's webhooks so that it only relies on the that's on Github (any update to a specific branch would triger a deploy). I want to figure that part out at some point. 
+
 
 ## On your server
 I'm on both Amazon and Dreamhost servers. But in this case, I wanted to set this up on Dreamhost. 
@@ -107,11 +108,12 @@ $ git remote set-url --add --push all  $ git://theRepoWhichIsSetupOnTheOriginRem
 Now running `git push all master` will push your master branch to both your github repo and to your server repo. 
 
 That's it. 
+
 If you have any feedback, you can find me [@marineboudeau](http://twitter.com/marineboudeau). 
 
 
-References:
-https://brandonevans.ca/post/text/deploying-websites-with-git-on-dreamhost/
-http://toroid.org/git-website-howto
-http://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes
+*References*
+[https://brandonevans.ca/post/text/deploying-websites-with-git-on-dreamhost/](https://brandonevans.ca/post/text/deploying-websites-with-git-on-dreamhost/)
+[http://toroid.org/git-website-howto](http://toroid.org/git-website-howto)
+[http://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes](http://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes)
 
