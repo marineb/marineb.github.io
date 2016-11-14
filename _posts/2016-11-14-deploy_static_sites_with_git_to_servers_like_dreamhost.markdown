@@ -114,6 +114,7 @@ If you have any feedback, you can find me [@marineboudeau](http://twitter.com/ma
 
 
 **References**
+
 * [https://brandonevans.ca/post/text/deploying-websites-with-git-on-dreamhost/](https://brandonevans.ca/post/text/deploying-websites-with-git-on-dreamhost/)
 * [http://toroid.org/git-website-howto](http://toroid.org/git-website-howto)
 * [http://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes](http://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes)
