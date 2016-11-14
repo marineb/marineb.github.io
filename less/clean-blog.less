@@ -29,6 +29,10 @@ h6 {
 	font-weight: 800;
 }
 
+h2 {
+	margin-top: 50px;
+}
+
 a {
 	color: @brand-secondary;
 	text-decoration: none;
@@ -85,7 +89,8 @@ hr.small {
 		border-bottom: 1px solid transparent;
 		.navbar-brand {
 			color: white;
-			padding: 20px;
+			padding: 4px 20px;
+			opacity: .5;
 			&:hover,
 			&:focus {
 				color: @white-faded;
@@ -170,7 +175,7 @@ hr.small {
 		padding: 100px 0 50px;
 		color: white;
 		@media only screen and (min-width: 768px) {
-			padding: 150px 0;
+			padding: 50px 0;
 		}
 	}
 	.site-heading,
@@ -190,7 +195,7 @@ hr.small {
 		}
 		@media only screen and (min-width: 768px) {
 			h1 {
-				font-size: 80px;
+				font-size: 50px;
 			}
 		}
 	}
@@ -461,8 +466,10 @@ img::-moz-selection {
 }
 
 code {
-	background-color: @code;
-	color: white;
+	background-color: #eee;
+	color: @brand-primary;
+	margin: 0 0 0 5px;
+	padding: 4px 8px;
 }
 
 body {
@@ -500,3 +507,11 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+pre {
+	padding: inherit;
+	font-size: inherit;
+	border: none;
+	color: inherit;
+	border-radius: inherit;
+	line-height: inherit;
+}

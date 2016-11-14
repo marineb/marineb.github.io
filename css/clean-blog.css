@@ -19,6 +19,9 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
+h2 {
+  margin-top: 50px;
+}
 a {
   color: #2d7eff;
   text-decoration: none;
@@ -66,7 +69,8 @@ hr.small {
   }
   .navbar-custom .navbar-brand {
     color: white;
-    padding: 20px;
+    padding: 4px 20px;
+    opacity: .5;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
@@ -148,7 +152,7 @@ hr.small {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 }
 .intro-header .site-heading,
@@ -172,7 +176,7 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 50px;
   }
 }
 .intro-header .post-heading h1 {
@@ -395,8 +399,10 @@ img::-moz-selection {
   background: transparent;
 }
 code {
-  background-color: #8aadff;
-  color: white;
+  background-color: #eee;
+  color: #006eff;
+  margin: 0 0 0 5px;
+  padding: 4px 8px;
 }
 body {
   webkit-tap-highlight-color: #006eff;
@@ -424,4 +430,12 @@ body {
   color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+pre {
+  padding: inherit;
+  font-size: inherit;
+  border: none;
+  color: inherit;
+  border-radius: inherit;
+  line-height: inherit;
 }

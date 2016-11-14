@@ -4,7 +4,7 @@ header-img: img/home-bg.png
 email: m14868@gmail.com
 copyright_name: marineb
 description: > # this means to ignore newlines until "baseurl:"
-  While I'm Taking The Online Full Stack Bootcamp at Flatiron School
+  Welcome!
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: marineboudeau
 github_username:  marineb
