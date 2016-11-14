@@ -401,7 +401,7 @@ img::-moz-selection {
 code {
   background-color: #eee;
   color: #006eff;
-  margin: 0 0 0 5px;
+  margin: 0;
   padding: 4px 8px;
 }
 body {
@@ -438,4 +438,9 @@ pre {
   color: inherit;
   border-radius: inherit;
   line-height: inherit;
+  background: white;
+}
+.hljs {
+  border-radius: 5px;
+  margin: 0;
 }
