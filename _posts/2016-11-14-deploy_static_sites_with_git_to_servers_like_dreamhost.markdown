@@ -4,7 +4,7 @@ title:  "Deploy Static Sites With Git to Servers Like Dreamhost"
 date:   2016-11-13 22:33:20 -0500
 ---
 
-I had already looked into this a while back but couldn't figure it out back then. Until today, I've been using [Deploybot](https://deploybot.com/) which deploys sites for you: pretty great product. But they recently got rid of their free service and I didn't want to pay for a service that *seems* so simple.
+I had already looked into this a while back but couldn't figure it out back then. Until today, I've been using [Deploybot](https://deploybot.com/) which deploys sites for you: pretty great product. But they recently got rid of their free service and I didn't want to pay for a task that would *seem* so simple to setup.
 
 I'll be referencing the sources that helped me at the bottom of this post. Since it took me years to find out how to do this, I do think the internet needs more resources to solve that problem. 
 
