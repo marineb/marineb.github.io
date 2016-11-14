@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deploy Static Sites With Git to Servers Like Dreamhost"
-date:   2016-11-14 03:33:20 +0000
+date:   2016-11-13 22:33:20 -0500
 ---
 
 TODO: Ideally, I'd like to make this work via Github's webhooks so that it only relies on the that's on Github (any update to a specific branch would triger a deploy). I want to figure that part out at some point. 
