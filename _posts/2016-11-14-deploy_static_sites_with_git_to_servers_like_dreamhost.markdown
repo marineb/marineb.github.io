@@ -17,7 +17,7 @@ First you'll need to ssh into your server:
 $ ssh [username]@[yourdomain.com] 
 ```
 
-Be sure to change `yourdomain.com` with the actal domain or server you want to connect to. Same for `username` obviously. 
+Be sure to change `yourdomain.com` with the actual domain or server you want to connect to. Same for `username` obviously. 
 
 You will be asked to enter your password (though here's is how to [configure passwordless login](https://help.dreamhost.com/hc/en-us/articles/216499537-How-to-configure-passwordless-login-in-Mac-OS-X-and-Linux)). 
 
