@@ -6,9 +6,7 @@ date:   2016-11-13 22:33:20 -0500
 
 I originally researched this a while back but couldn't figure it out then. Until today, I've been using [Deploybot](https://deploybot.com/) which does the job (deploying websites) for you: pretty great product. They recently got rid of their free service and I didn't want to pay for a task that would *seem* so simple to setup.
 
-```
-TODO: Ideally, I'd like to make this work via Github's webhooks (any update to a specific branch would triger a deploy). I want to figure that part out at some point. 
-```
+> TODO: Ideally, I'd like to make this work via Github's webhooks (any update to a specific branch would triger a deploy). I want to figure that part out at some point. 
 
 ## On your server
 I'm on both Amazon and Dreamhost servers. But in this case, I wanted to set this up on Dreamhost. 
