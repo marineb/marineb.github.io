@@ -25,6 +25,7 @@ Be sure to change `yourdomain.com` with the actal domain or server you want to c
 You will be asked to enter your password (though here's is how to [configure passwordless login](https://help.dreamhost.com/hc/en-us/articles/216499537-How-to-configure-passwordless-login-in-Mac-OS-X-and-Linux)). 
 
 Next we're going to setup the remote Git repository. 
+
 ```
 $ mkdir yourwebsite.com.git
 $ cd yourwebsite.com.git
@@ -112,8 +113,8 @@ That's it.
 If you have any feedback, you can find me [@marineboudeau](http://twitter.com/marineboudeau). 
 
 
-*References*
-[https://brandonevans.ca/post/text/deploying-websites-with-git-on-dreamhost/](https://brandonevans.ca/post/text/deploying-websites-with-git-on-dreamhost/)
-[http://toroid.org/git-website-howto](http://toroid.org/git-website-howto)
-[http://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes](http://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes)
-
+**References**
+* [https://brandonevans.ca/post/text/deploying-websites-with-git-on-dreamhost/](https://brandonevans.ca/post/text/deploying-websites-with-git-on-dreamhost/)
+* [http://toroid.org/git-website-howto](http://toroid.org/git-website-howto)
+* [http://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes](http://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes)
+* 
