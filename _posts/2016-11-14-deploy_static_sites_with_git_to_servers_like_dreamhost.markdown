@@ -7,22 +7,27 @@ date:   2016-11-13 22:33:20 -0500
 ---
 
 
-h1. A clean version of this is available [here](https://medium.com/@marineboudeau/deploy-static-sites-with-git-to-servers-like-dreamhost-8d15e2b6bc41)
+# A clean version of this is available [here](https://medium.com/@marineboudeau/deploy-static-sites-with-git-to-servers-like-dreamhost-8d15e2b6bc41)
 
 
-How I setup one command to deploy my site to Dreamhost and push its code to Github
 
 
-A few very basic unix command before we get started (most of you will skip this)
+## A few very basic unix command before we get started (most of you will skip this)
 If you’re not familiar with unix command, these will be useful when we’re on the server so you can navigate properly.
-ls = lists the files and directories contained in the directory you’re currently in
-pwd = the path you’re currently in
-cd yourdirectory = to go inside a directory
-cd .. = to go back in the directory above
-On your server
-Create the remote repo
+
+`ls` = lists the files and directories contained in the directory you’re currently in
+
+`pwd` = the path you’re currently in
+
+`cd yourdirectory` = to go inside a directory
+
+`cd ..` = to go back in the directory above
+
+## On your server
+### Create the remote repo
 First you’ll need to ssh into your Dreamhost server:
-$ ssh [username]@[yourdomain.com]
+```$ ssh [username]@[yourdomain.com]```
+
 Be sure to change yourdomain.com with the actual domain or server you want to connect to. Same for username obviously.
 You will be asked to enter your password (though here’s how to configure passwordless login).
 If you don’t see yourwebsite.com in your home directory, add it:
